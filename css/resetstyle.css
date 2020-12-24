@@ -1,0 +1,74 @@
+/*--------RESET---------*/
+body{
+  background: url(img/dell-background.jpg);
+  background-size: 100%;
+}
+.reset{
+  display: flex;
+  width: 500px;
+  height: 300px;
+  border: 5px solid saddlebrown;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 150px auto;
+  box-sizing: border-box;
+  font-size: 18px;
+  box-shadow: 0 0 10px deepskyblue;
+  justify-content: center;
+  color: white;
+}
+.reset label{
+  padding: 12px 0px 0px 0px;
+  display: block;
+  color: #22ef34a3;
+  font-family: arial;
+}
+.reset .data input[type="text"]{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid saddlebrown;
+  height: 25px;
+  margin: 5px auto 12px;
+}
+.reset .selection input[type="submit"]{
+  color: ivory;
+  display: inline-block;
+  background-color: green;
+  font-size: 14px;
+  border: none;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+.reset .selection input[type="reset"]{
+  color: ivory;
+  display: inline-block;
+  background-color: crimson;
+  font-size: 14px;
+  border: none;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+.reset .selection{
+  display: flex;
+  height: 70px;
+  width: 290px;
+}
+.reset .selection input{
+  font-family: helvetica;
+  width: 80px;
+}
+.reset .selection input:hover{
+  background: skyblue;
+  cursor: pointer;
+}
+.reset form {
+  padding: 20px;
+  margin: 0px auto;
+}
+.robot{
+  font-size: 18px;
+  font-family: helvetica;
+  color: white;
+  padding: 18px 0px 18px;
+}
+/*--------RESET---------*/

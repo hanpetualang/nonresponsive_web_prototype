@@ -1,0 +1,90 @@
+/*--------LOGIN---------*/
+.prof{
+  display: flex;
+  border: 1px solid grey;
+  margin: 7px 100px;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 0 0 12px aqua
+}
+.prof img{
+  margin: 8px auto;
+}
+body{
+  background: url(img/dell-background.jpg);
+  background-size: 100%;
+}
+.login{
+  display: block;
+  width: 350px;
+  height: 500px;
+  border: 5px solid saddlebrown;
+  border-radius: 15px;
+  padding: 7px;
+  margin: 150px auto;
+  box-sizing: border-box;
+  font-size: 18px;
+  box-shadow: 0 0 10px deepskyblue;
+}
+.login label{
+  padding: 12px 0px 0px 0px;
+  display: block;
+  color: #22ef34a3;
+  font-family: arial;
+}
+.login input[type="text"],
+.login input[type="password"]{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid saddlebrown;
+  height: 25px;
+  margin: 3px auto 19px;
+}
+.login input[type="submit"]{
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+  background-color: green;
+  font-size: 14px;
+  border: none;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+.login input[type="reset"]{
+  color: white;
+  display: inline-block;
+  background-color: crimson;
+  font-size: 14px;
+  border: none;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+.login .selection{
+  display: flex;
+  height: 70px;
+}
+.login .selection input{
+  font-family: helvetica;
+  width: 80px;
+}
+.login .selection input:hover{
+  background: skyblue;
+  cursor: pointer;
+}
+.login form {
+  padding: 20px;
+  margin: 0px auto;
+}
+.login .save {
+  margin: 25px auto;
+  color: khaki;
+}
+.login .option {
+  color: ivory;
+}
+.login .option a {
+  text-decoration: ;
+  color: ivory;
+}
+
+/*--------LOGIN---------*/

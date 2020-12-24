@@ -1,0 +1,96 @@
+/*--------REGISTER---------*/
+body{
+  background: url(img/dell-background.jpg);
+  background-size: 100%;
+}
+.register{
+  display: flex;
+  width: 400px;
+  height: 650px;
+  border: 5px solid saddlebrown;
+  border-radius: 15px;
+  padding: 7px;
+  margin: 150px auto;
+  box-sizing: border-box;
+  font-size: 18px;
+  box-shadow: 0 0 10px deepskyblue;
+}
+.register label{
+  padding: 12px 0px 0px 0px;
+  display: block;
+  color: #22ef34a3;
+  font-family: arial;
+}
+.register .data input[type="text"],
+.register .data input[type="password"]{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid saddlebrown;
+  height: 25px;
+  margin: 5px auto 12px;
+}
+.register .selection input[type="submit"]{
+  color: ivory;
+  display: inline-block;
+  background-color: green;
+  font-size: 14px;
+  border: none;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+.register .selection input[type="reset"]{
+  color: ivory;
+  display: inline-block;
+  background-color: crimson;
+  font-size: 14px;
+  border: none;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+.content{
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+  vertical-align: top;
+}
+.selection{
+  display: flex;
+  height: 70px;
+  width: 290px;
+}
+.selection input{
+  font-family: helvetica;
+  width: 80px;
+}
+.register .selection input:hover{
+  background: skyblue;
+  cursor: pointer;
+}
+.register form {
+  padding: 20px;
+  margin: 0px auto;
+}
+.register .save {
+  margin: 25px auto;
+  color: khaki;
+}
+.register .option {
+  color: ivory;
+}
+.register .option a {
+  text-decoration: ;
+  color: ivory;
+}
+.name-container input{
+  height: 25px;
+  width: auto;
+  box-sizing: border-box;
+  margin: 5px auto 12px;
+}
+.register .robot{
+  color: ivory;
+  font-size: 18px;
+  font-family: helvetica;
+  padding: 15px 0px 15px 0px;
+  margin: 15px 0px 15px 0px;
+}
+/*--------REGISTER---------*/

@@ -1,0 +1,57 @@
+.header{
+  display: grid;
+  justify-content: center;
+  margin: 0px;
+  padding: 5px;
+  font-family: fantasy;
+  font-weight: bold;;
+  background-color: rgb(208, 111, 70);
+}
+.menu{
+  display: block;
+  float: left;
+  width: 45%;
+  font-family: calibri;
+  padding-top: 0px;
+  font-weight: bold;
+  text-align: right;
+}
+.menu label{
+  padding-top: 20px;
+  display: block;
+}
+.menu input{
+  width: 40px;
+  height: 15px;
+}
+.menu button{
+  margin-top: 20px;
+  width: 70px;
+  background-color: crimson;
+  color: ivory;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+}
+.harga{
+  display: block;
+  width: 45%;
+  float: right;
+  font-family: calibri;
+  font-weight: bold;
+}
+.harga span{
+  font-family: verdana;
+  font-weight: lighter;
+  font-size: 17px;
+  padding-top: 39px;
+  display: block;
+}
+#total1{
+  padding-top: 40px;
+  font-weight: bold;
+}
+#totalharga
+{
+  padding: 0px;
+}

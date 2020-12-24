@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pemesanan</title>
+    <link rel="stylesheet" href="css/orderstyle.css">
+  </head>
+  <body>
+    <div class="header">
+      BELANJA HARDWARE KOMPUTER
+    </div>
+    <div class="menu">
+      <form name="jumlah" action="index.html" method="post">
+        <span>Barang</span>
+        <label>CPU</label>
+        <input type="number" name="cpu" min="0">
+        <label>Monitor</label>
+        <input type="number" name="monitor" min="0">
+        <label>Keyboard</label>
+        <input type="number" name="keyboard" min="0">
+        <label>RAM</label>
+        <input type="number" name="ram" min="0">
+        <label>SSD</label>
+        <input type="number" name="ssd" min="0">
+        <label>Hard Disk</label>
+        <input type="number" name="hdd" min="0">
+        <label>Mouse</label>
+        <input type="number" name="mouse" min="0">
+        <label>Set Komputer</label>
+        <input type="number" name="setkomp" min="0">
+        <br> <br>
+        <button type="button" onclick="beli()">Beli</button>
+      </form>
+    </div>
+    <div class="harga">
+      <label>Harga</Label>
+      <span id="cpu">Rp 0</span>
+      <span id="monitor">Rp 0</span>
+      <span id="keyboard">Rp 0</span>
+      <span id="ram">Rp 0</span>
+      <span id="ssd">Rp 0</span>
+      <span id="hdd">Rp 0</span>
+      <span id="mouse">Rp 0</span>
+      <span id="kompset">Rp 0</span>
+      <span id="total1">Total Harga</span>
+      <span id="totalharga">Rp 0</span>
+    </div>
+  </body>
+  <script src="function.js" charset="utf-8"></script>
+</html>
